@@ -2,6 +2,7 @@
 #include "Task1.cpp"
 #include "Task2.cpp"
 #include "Task3.cpp"
+#include "Task4.cpp"
 
 void Task1() {
     int arr1[] = { 1, 2, 3, 4, 5 };
@@ -67,5 +68,16 @@ void Task3() {
 }
 
 void Task4() {
+    int arr[] = { 1, 2, 3, 4, 5 };
+    int arrSize = 5;
 
+    Array<int> myArray(arr, arrSize);
+
+    std::cout << "Array elements: ";
+    for (Array<int>::Iterator it = myArray.begin(); it != myArray.end(); ++it) {
+        std::cout << *it << " ";
+    }
+    std::cout << std::endl;
+
+    return;
 }

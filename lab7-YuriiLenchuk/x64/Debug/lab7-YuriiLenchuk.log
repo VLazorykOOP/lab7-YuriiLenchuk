@@ -1,0 +1,20 @@
+﻿  lab7-YuriiLenchuk.cpp
+  lab7.cpp
+  Task4.cpp
+  Task3.cpp
+C:\c++\labs2\lab7\lab7-YuriiLenchuk\lab7-YuriiLenchuk\Task3.cpp(21,18): error C2039: "cout": не является членом "std".
+C:\c++\labs2\lab7\lab7-YuriiLenchuk\lab7-YuriiLenchuk\predefined C++ types (compiler internal)(339): message : см. объявление "std"
+C:\c++\labs2\lab7\lab7-YuriiLenchuk\lab7-YuriiLenchuk\Task3.cpp(56): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "CircularQueue<T>"
+C:\c++\labs2\lab7\lab7-YuriiLenchuk\lab7-YuriiLenchuk\Task3.cpp(21,75): error C2039: "endl": не является членом "std".
+C:\c++\labs2\lab7\lab7-YuriiLenchuk\lab7-YuriiLenchuk\predefined C++ types (compiler internal)(339): message : см. объявление "std"
+C:\c++\labs2\lab7\lab7-YuriiLenchuk\lab7-YuriiLenchuk\Task3.cpp(32,18): error C2039: "cout": не является членом "std".
+C:\c++\labs2\lab7\lab7-YuriiLenchuk\lab7-YuriiLenchuk\predefined C++ types (compiler internal)(339): message : см. объявление "std"
+C:\c++\labs2\lab7\lab7-YuriiLenchuk\lab7-YuriiLenchuk\Task3.cpp(32,76): error C2039: "endl": не является членом "std".
+C:\c++\labs2\lab7\lab7-YuriiLenchuk\lab7-YuriiLenchuk\predefined C++ types (compiler internal)(339): message : см. объявление "std"
+C:\c++\labs2\lab7\lab7-YuriiLenchuk\lab7-YuriiLenchuk\Task3.cpp(42,18): error C2039: "cout": не является членом "std".
+C:\c++\labs2\lab7\lab7-YuriiLenchuk\lab7-YuriiLenchuk\predefined C++ types (compiler internal)(339): message : см. объявление "std"
+C:\c++\labs2\lab7\lab7-YuriiLenchuk\lab7-YuriiLenchuk\Task3.cpp(42,70): error C2039: "endl": не является членом "std".
+C:\c++\labs2\lab7\lab7-YuriiLenchuk\lab7-YuriiLenchuk\predefined C++ types (compiler internal)(339): message : см. объявление "std"
+  Task2.cpp
+  Task1.cpp
+  Создание кода...

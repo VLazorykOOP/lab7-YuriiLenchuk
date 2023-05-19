@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="lab7-YuriiLenchuk.cpp" />
     <ClCompile Include="lab7.cpp" />
+    <ClCompile Include="Task4.cpp" />
+    <ClCompile Include="Task3.cpp" />
+    <ClCompile Include="Task2.cpp" />
     <ClCompile Include="Task1.cpp" />
   </ItemGroup>
   <ItemGroup>
