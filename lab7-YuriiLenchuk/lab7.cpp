@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Task1.cpp"
 #include "Task2.cpp"
+#include "Task3.cpp"
 
 void Task1() {
     int arr1[] = { 1, 2, 3, 4, 5 };
@@ -36,3 +37,35 @@ void Task2() {
     return;
 }
 
+void Task3() {
+    CircularQueue<int> queue(5);
+
+    queue.enqueue(1);
+    queue.enqueue(2);
+    queue.enqueue(3);
+    queue.enqueue(4);
+
+    std::cout << "Front element: " << queue.frontElement() << std::endl;
+
+    queue.dequeue();
+
+    std::cout << "Front element after dequeue: " << queue.frontElement() << std::endl;
+
+    queue.enqueue(5);
+    queue.enqueue(6);
+
+    std::cout << "Is queue full? " << (queue.isFull() ? "Yes" : "No") << std::endl;
+
+    while (!queue.isEmpty()) {
+        std::cout << "Dequeued element: " << queue.frontElement() << std::endl;
+        queue.dequeue();
+    }
+
+    std::cout << "Is queue empty? " << (queue.isEmpty() ? "Yes" : "No") << std::endl;
+
+    return;
+}
+
+void Task4() {
+
+}
